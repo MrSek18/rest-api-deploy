@@ -9,21 +9,8 @@ const {validateMovie,validatePartialMovie} = require('./schemas/movies')
 
 const app = express();
 
-app.use(cors({
-    origin: (origin, callback) =>{
-        const ACCEPTED_ORIGINS = [
-            'http://localhost:8080',
-            'http://localhost:1234',
-            'http://movies.com',
-            'https://midu.dev'
-        
-        ]
-        if (ACCEPTED_ORIGINS.includes(origin) || !origin){
-            callback(null, true)
-        }
-        return callback(new Error('Not allowed by CORS'))
-    }
-}))
+app.use(cors());
+
 
 app.disable('x-powered-by'); 
 
@@ -175,7 +162,7 @@ app.patch('/movies/:id', (req, res) => {
 
 
 
-const PORT = process.env.PORT || 1234;
+const PORT = process.env.PORT ?? 1234
 
 app.listen(PORT, () => {
     console.log(`Server listening on port http://localhost:${PORT}`);
