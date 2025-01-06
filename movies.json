@@ -1,0 +1,44 @@
+[
+    {
+        "id": "skfgo2mxz-asffo2-2391fs",
+        "title": "The Shawshank Redemption",
+        "year": 1994,
+        "director": "Frank Darabont",
+        "duration": "2h 22min",
+        "genre": ["Crime", "Drama"],
+        "rate": 9.3,
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-sKn2cILCNSkdsuWvINAQ84a3O6shl66j0A&s"
+    },
+    {
+        "id": "a1129dmw-asffo2-sg021s",
+        "title": "Do not say the name",
+        "year": 1972,
+        "director": "Francis Ford Coppola",
+        "duration": "2h 55min",
+        "genre": ["Crime", "Drama"],
+        "rate": 9.2,
+        "description": "lorem ipsum dolor sit amet, consectetur adipiscing elit",
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvHAgGGoJOraKrkB_jUIt-81zqknRoPVnZNQ&s"
+    },
+    {
+        "id": "12dmsslmg01-asffo2-sopfosf",
+        "title": "Yan Block",
+        "year": 2008,
+        "director": "Christopher Nolan",
+        "duration": "2h 32min",
+        "genre": ["Action", "Crime", "Drama", "Thriller", "Terror"],
+        "rate": 9.0,
+        "poster": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEfi8e9lfnSSvC84r0W7ZrqKueWZBN1UXqeA&s"
+    },
+    {
+        "id": "2ifm02s-asffo2-3g92ksp",
+        "title": "operation: next step",
+        "year": 1957,
+        "director": "Sidney Lumet",
+        "duration": "1h 36min",
+        "genre": ["Crime", "Drama"],
+        "rate": 8.9,
+        "poster": "https://preview.redd.it/what-is-the-next-step-of-the-operation-v0-xjq6j2hn599e1.jpeg?auto=webp&s=aa3e7e842935341e7aafa9470abd341cf84f8097"
+    }
+]

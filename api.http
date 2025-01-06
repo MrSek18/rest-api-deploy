@@ -1,0 +1,35 @@
+//  Recuperar todas las películas
+
+# GET http://localhost:1234/movies
+
+// Recuperar un película por id
+# GET http://localhost:1234/movies/a1129dmw-asffo2-sg021s
+
+// Recuperar todas las películas de un género
+# GET http://localhost:1234/movies?genre=terror
+
+// Crear una pelicula con POST
+
+# POST http://localhost:1234/movies
+# Content-Type: application/json
+
+# {
+#   "title": "The Godfather",
+#   "year": 1975,
+#   "director": "Francis Ford Coppola",
+#   "duration": 175,
+#   "poster": "https://img.fruugo.com/product/4/49/14441494_max.jpg",
+#   "genre": [
+#     "Crime",
+#     "Drama"
+#   ]
+# }
+
+PATCH http://localhost:1234/movies/12dmsslmg01-asffo2-sopfosf
+Content-Type: application/json
+
+{
+    "title": "Mr. Sek 007",
+    "year": 1999
+}
+
